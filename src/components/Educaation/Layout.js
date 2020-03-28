@@ -44,7 +44,11 @@ const Layout = () => {
                     12<sup>Th</sup> Class
                   </h3>
                 </Typography>
-                <Typography variant='body1' component='h2'>
+                <Typography
+                  variant='body1'
+                  className={classes.marhins}
+                  component='h2'
+                >
                   June 2016 - Mar 2017
                 </Typography>
                 <Typography variant='body1' component='h2'>
@@ -59,17 +63,22 @@ const Layout = () => {
             <CardContent className={classes.card}>
               <Typography variant='h6' component='h2'>
                 Bholabhai College of Computer Studies
-                <Typography variant='h6' component='h2'>
+                <Typography
+                  variant='body1'
+                  className={classes.top}
+                  component='h2'
+                >
                   BCA
                 </Typography>
-                <Typography variant='body1' component='h2'>
+                <Typography
+                  variant='body1'
+                  className={classes.margin}
+                  component='h2'
+                >
                   June 2017 - Mar 2020
                 </Typography>
                 <Typography variant='body1' component='h2'>
-                  SEM-5<sup>Th</sup> BCA
-                </Typography>
-                <Typography variant='h6' component='h6'>
-                  Passing-Marks:-SPI:75.55
+                  SEM-5 BCA SPI:75.55
                 </Typography>
               </Typography>
             </CardContent>

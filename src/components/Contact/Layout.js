@@ -22,18 +22,18 @@ const Layout = () => {
               style={{ color: 'black' }}
               component='h2'
             >
-              𝓒𝓸𝓷𝓽𝓪𝓬𝓽 𝓜𝓮
+              Contact Me
               <span className='waveemoji'>☎️</span>
             </Typography>
             <Typography className={classes.deatil} variant='h4' component='h2'>
-              𝓶𝓸𝓫𝓲𝓵𝓮𝓝𝓸:7485901360
+              Mobile No:7485901360
             </Typography>
             <Typography
               className={classes.desription}
               variant='h4'
               component='h2'
             >
-              𝓔𝓶𝓪𝓲𝓵:𝓼𝓸𝓵𝓪𝓷𝓴𝓲𝓷𝓲𝓽𝓲𝓷2912@𝓰𝓶𝓪𝓲𝓵.𝓬𝓸𝓶
+              Email:solankinitin2912@gmail.com
             </Typography>
 
             <a

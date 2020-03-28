@@ -27,15 +27,15 @@ const Layout = () => {
               style={{ color: 'black' }}
               component='h2'
             >
-              𝐻𝒾 𝒶𝓁𝓁 𝐼'𝓂
+              Hi All I'M
               <span className='waveemoji'>👋🏻</span>
             </Typography>
             <Typography className='desription' variant='h4' component='h2'>
-              𝒩𝒾𝓉𝒾𝓃 𝒮❀𝓁𝒶𝓃𝓀𝒾
+              Nitin Solanki
             </Typography>
             <Typography className='deatil' variant='h4' component='h2'>
               {/* ｉ　ａｍ　💻ｆｏｎｔ🖱️ｅｎｄ　ｂａｃｋ⌨️ｅｎｄ　ｂａｃｋｅｎｄ */}
-              𝒾 𝒶𝓂 💻𝒻𝑜𝓃𝓉🖱️𝑒𝓃𝒹 𝒷𝒶𝒸𝓀⌨️𝑒𝓃𝒹 𝒷𝒶𝒸𝓀𝑒𝓃𝒹💻
+              i am💻fornt🖱️end back⌨️end devloper💻
             </Typography>
 
             <a
@@ -103,7 +103,10 @@ const Layout = () => {
         <Grid item xs={12} sm={6} lg={6}>
           <img
             src='images/manOnTable.svg'
-            style={{ width: '100%' }}
+            className={classes.img}
+            style={{
+              width: '100%'
+            }}
             alt='programmer'
           />
         </Grid>

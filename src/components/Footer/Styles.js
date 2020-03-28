@@ -5,7 +5,13 @@ const useStyles = makeStyles(theme => ({
     alignContent: 'center',
     justifyContent: 'center',
     marginBottom: theme.spacing() * 5,
-    display: 'flex'
+    display: 'flex',
+    [theme.breakpoints.only('sm')]: {
+      alignContent: 'center',
+      justifyContent: 'center',
+      marginBottom: theme.spacing() * 3,
+      display: 'flex'
+    }
   }
 }));
 export default useStyles;

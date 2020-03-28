@@ -8,7 +8,7 @@ class Layout extends Component {
       <div className='body'>
         <header className='header'>
           <a href='/' className='logo'>
-            <span className='logo-name'>★𝒩𝒾𝓉𝒾𝓃 𝒮❀𝓁𝒶𝓃𝓀𝒾★</span>
+            <span className='logo-name'>Nitin Solanki</span>
           </a>
           <input className='menu-btn' type='checkbox' id='menu-btn' />
           <label className='menu-icon' htmlFor='menu-btn'>

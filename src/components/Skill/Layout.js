@@ -26,7 +26,7 @@ const Layout = () => {
             variant='h4'
             component='h2'
           >
-            𝒲𝒽𝒶𝓉 𝒾 𝒹𝑜
+            What i do
             <div className={classes.containerfluid}>
               <OwlCarousel items={3} className='owl-theme' loop nav margin={8}>
                 <div className={classes.fab}>

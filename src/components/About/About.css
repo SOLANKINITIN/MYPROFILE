@@ -79,6 +79,27 @@
   .deatil {
     font-size: 1.3rem !important;
   }
+  .icon-button {
+    font-size: 0rem !important;
+  }
+  .icon-button i {
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2rem;
+    margin-bottom: 10px;
+    margin-top: 2rem !important;
+  }
   /* .Button {
     margin-left: 0rem !important;
     margin: 0.1rem !important;

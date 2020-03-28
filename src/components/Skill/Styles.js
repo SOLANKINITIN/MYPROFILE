@@ -3,8 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(theme => ({
   img: {
     marginLeft: theme.spacing() * 6,
-    [theme.breakpoints.only('xs', 'sm')]: {
+    [theme.breakpoints.only('xs')]: {
       marginLeft: theme.spacing() * 0
+    },
+    [theme.breakpoints.only('sm')]: {
+      marginLeft: theme.spacing() * 0,
+      marginTop: '3rem !important'
     }
   },
   desription: {
