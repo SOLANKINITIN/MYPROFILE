@@ -6,7 +6,7 @@ const socialMediaLinks = {
   linkedin: 'https://www.linkedin.com/in/nitin-solanki-5172ba190',
   gmail: 'solankinitin2912@gmail.com',
   instagram: 'https://www.instagram.com/solankinitin2912',
-  facebook: 'https://www.facebook.com/solanki.nitin.5059'
+  facebook: 'https://www.facebook.com/solanki.nitin.5059',
 };
 const Layout = () => {
   const classes = useStyles();

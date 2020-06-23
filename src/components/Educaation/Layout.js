@@ -5,7 +5,7 @@ import {
   Container,
   Typography,
   Card,
-  CardContent
+  CardContent,
 } from '@material-ui/core';
 
 const Layout = () => {
