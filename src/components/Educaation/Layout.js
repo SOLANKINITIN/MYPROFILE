@@ -39,7 +39,11 @@ const Layout = () => {
             <CardContent className={classes.card}>
               <Typography variant='h6' component='h2'>
                 Ved Inter National School
-                <Typography variant='body1' component='h2'>
+                <Typography
+                  variant='body1'
+                  className={classes.ten}
+                  component='h2'
+                >
                   <h3>
                     12<sup>Th</sup> Class
                   </h3>
@@ -63,16 +67,12 @@ const Layout = () => {
             <CardContent className={classes.card}>
               <Typography variant='h6' component='h2'>
                 Bholabhai College of Computer Studies
-                <Typography
-                  variant='body1'
-                  className={classes.top}
-                  component='h2'
-                >
-                  BCA
+                <Typography variant='body1' component='h2'>
+                  <h3>BCA</h3>
                 </Typography>
                 <Typography
                   variant='body1'
-                  className={classes.margin}
+                  // className={classes.margin}
                   component='h2'
                 >
                   June 2017 - Mar 2020

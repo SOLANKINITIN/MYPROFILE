@@ -10,8 +10,16 @@ const useStyles = makeStyles((theme) => ({
   container: {
     marginTop: theme.spacing() * 5,
   },
+  ten: {
+    [theme.breakpoints.only('sm')]: {
+      marginTop: '3rem !important',
+    },
+    [theme.breakpoints.only('ms')]: {
+      marginTop: '0rem !important',
+    },
+  },
   margin: {
-    marginTop: theme.spacing() * 4.8,
+    // marginTop: theme.spacing() * 4,
     [theme.breakpoints.only('sm')]: {
       marginTop: '3rem !important',
     },
@@ -19,14 +27,7 @@ const useStyles = makeStyles((theme) => ({
       marginTop: '1rem !important',
     },
   },
-  marhins: {
-    [theme.breakpoints.only('sm')]: {
-      marginTop: '2rem !important',
-    },
-    [theme.breakpoints.only('md')]: {
-      marginTop: 'o.5rem !important',
-    },
-  },
+
   top: {
     marginTop: theme.spacing() * 0.6,
     [theme.breakpoints.only('sm')]: {
