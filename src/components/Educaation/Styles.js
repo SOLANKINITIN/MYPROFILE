@@ -12,32 +12,28 @@ const useStyles = makeStyles((theme) => ({
   },
   ten: {
     [theme.breakpoints.only('sm')]: {
-      marginTop: '3rem !important',
+      marginTop: '0rem !important',
     },
     [theme.breakpoints.only('ms')]: {
       marginTop: '0rem !important',
     },
   },
+
   margin: {
-    // marginTop: theme.spacing() * 4,
+    [theme.breakpoints.only('sm')]: {
+      marginTop: '0rem !important',
+    },
+    [theme.breakpoints.only('ms')]: {
+      marginTop: '0rem !important',
+    },
+  },
+
+  marhins: {
     [theme.breakpoints.only('sm')]: {
       marginTop: '3rem !important',
     },
     [theme.breakpoints.only('md')]: {
-      marginTop: '1rem !important',
-    },
-  },
-
-  top: {
-    marginTop: theme.spacing() * 0.6,
-    [theme.breakpoints.only('sm')]: {
-      marginTop: '1rem !important',
-      fontSize: '1em',
-    },
-    [theme.breakpoints.only('md')]: {
       marginTop: '0rem !important',
-
-      fonteight: 'normal',
     },
   },
 }));

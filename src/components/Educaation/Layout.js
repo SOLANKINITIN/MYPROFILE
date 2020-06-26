@@ -18,7 +18,7 @@ const Layout = () => {
           <Card>
             <CardContent className={classes.card}>
               <Typography variant='h6' component='h2'>
-                Shree Swaminarayana School
+                Shree Swaminarayan School
                 <Typography variant='body1' component='h2'>
                   <h3>
                     10<sup>Th</sup> Class
@@ -38,7 +38,7 @@ const Layout = () => {
           <Card>
             <CardContent className={classes.card}>
               <Typography variant='h6' component='h2'>
-                Ved Inter National School
+                Ved International School
                 <Typography
                   variant='body1'
                   className={classes.ten}
@@ -70,11 +70,7 @@ const Layout = () => {
                 <Typography variant='body1' component='h2'>
                   <h3>BCA</h3>
                 </Typography>
-                <Typography
-                  variant='body1'
-                  // className={classes.margin}
-                  component='h2'
-                >
+                <Typography variant='body1' component='h2'>
                   June 2017 - Mar 2020
                 </Typography>
                 <Typography variant='body1' component='h2'>
