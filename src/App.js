@@ -4,7 +4,6 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Educaation from "./components/Educaation";
 import Contact from "./components/Contact";
-
 import Footer from "./components/Footer";
 
 export default class App extends Component {
